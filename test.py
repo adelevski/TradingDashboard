@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 
 st.title('TradeDash')
 
-tickers = get_tickers()
+# tickers = get_tickers()
 
 col, buff1, buff2 = st.columns([1, 3, 3])
 inp = col.text_input("Ticker")
